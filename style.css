@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(138, 176, 208);
+    text-align: center;
+  
+    
+}
+.header{
+    background-color: rgb(207, 207, 97);
+    color: red;
+    border:1px solid black;
+}
+.container{
+   
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    display: flex;
+    height: 60vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   gap: 1.5vmin;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 80px;
+    
+}
+#reset-button{
+    height: 5vh;
+    width: 15vw;
+    background-color: green;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    cursor: pointer;
+    margin-top: 60px;
+}
+#new-button{
+    height: 5vh;
+    width: 15vw;
+    background-color: rgb(15, 0, 128);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    cursor: pointer;
+    margin-top: 60px;
+    
+}
+.winner{
+    color: green;
+    font-size: 25px;
+    font-weight: 600;
+}
+.newgame{
+    background-color: rgb(52, 45, 68);
+    color: white;
+   
+    font-size: 15px;
+    border-radius: 8px;
+    
+}
+#msg{
+    font-size: 40px;
+    color: rgb(183, 19, 164);
+
+   
+}
+.msg-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hide{
+    display: none;
+}
+.img{
+    height: 230px;
+}
